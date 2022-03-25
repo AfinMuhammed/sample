@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1024px) {
+
+.logo img{
+	width: 120px;
+}
+.search{width:40%;}
+.about,.products,.teams{font-size: 10px;}
+
+}

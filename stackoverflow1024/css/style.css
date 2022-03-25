@@ -1,0 +1,637 @@
+
+
+
+*{
+	margin:0;
+	pading:0;
+	font-family: arial;
+	font-size: 13px;
+}
+.clear{
+	clear: both;
+}
+.left{
+	float:left;
+}
+.green{
+	color: rgb(94, 186, 131);
+	padding: 10px 0;
+}
+.rightMainThird{
+	color: rgb(0,0,0,0.7);
+}
+.msga{
+	width: 20px;
+	height: 20px;
+	background-image: ;
+	margin:10px 0;
+	background-image:url("../assets/icons/msga.png");
+	background-repeat:no-repeat;
+	background-position: 1%;
+	background-size: 20px;
+	transform: scaleX(-1);
+}
+.msgq{
+	width: 20px;
+	height: 20px;
+	background-image: ;
+	background-image:url("../assets/icons/msgq.png");
+	background-repeat:no-repeat;
+	background-position: 1%;
+	background-size: 20px;
+}
+.msgba{
+	width: 20px;
+	height: 20px;
+	background-image: ;
+	background-image:url("../assets/icons/msgba.png");
+	background-repeat:no-repeat;
+	background-position: 1%;
+	background-size: 20px;
+	transform: scaleX(-1);
+}
+.right{
+	float:right;
+}
+.headerLine{
+	height:4px;
+	background-color: rgb(244, 115, 7);
+	border: none;
+}
+.topHeader{
+	background-color:#f7f8f8;
+	box-shadow:  0 0 10px 0 rgb(0,0,0,0.2);
+}
+.logo{
+	width: 14%;
+	float:left;
+	/*border: 1px solid black;*/
+}
+.logo img{
+	width: 160px;
+	margin: 2px 0 0 10px;
+	padding:2px;
+}
+.about, .products, .team{
+	width: 6%;
+	float: left;
+	/*border: 1px solid black;*/
+	padding: 16px 3px;
+	opacity: 0.7;
+}
+.search{
+	width: 54%;
+	float:left;
+	/*border: 1px solid black;*/
+}
+.searchBar{
+	width:99%;
+	margin: 5px;
+	padding: 10px 0;
+	text-indent:5%;
+	border: 1px solid #babfc4;
+	background-image:url("../assets/icons/search.png");
+	background-repeat: no-repeat;
+	background-size: 5%;
+	background-position: 0.2%;
+	border-radius:5px;
+}
+.searchBar:focus
+{
+	outline: none;
+	border: 1px solid #6ebcf7;
+	box-shadow: 0 0 4px #0074cc;
+}
+.headerRight{
+	width: 12.5%;
+	float:right;
+	/*border: 1px solid black;*/
+}
+.login{
+	float:left;
+	padding:10px 3px;
+	border: 1px solid  rgb(122, 167, 199);
+	margin: 7px 2px;
+	color: rgb(83, 142, 184);
+	border-radius: 5px;
+	background-color:rgb(225, 236, 244);
+}
+.signup{
+	float:left;
+	border: 1px solid rgb(122, 167, 199);
+	padding: 10px 5px;
+	margin: 7px 5px;
+	border-radius: 5px;
+	background-color:rgb(10, 149, 255);
+	color: rgb(255,255,255);
+}
+.signup span, .login span{
+	margin: auto 10px;
+}
+.leftMainContainer{
+	height: 675px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width:13%;
+	float: left;
+	border-right: 1px solid rgb(0,0,0,0.1);
+}
+.home{
+	margin-top: 35px;
+}
+.home, .collectives, .jobs, .public{
+	padding-left: 10px;
+}
+.hr{
+	padding:15px 10px;
+	border-top:1px solid rgb(0,0,0,0.2);
+	border-bottom:1px solid rgb(0,0,0,0.2);
+	border-left:1px solid rgb(0,0,0,0.2);
+	margin-bottom: 10px;
+}
+.teamLast{
+	padding: 5px 15px;
+}
+.menuHeader{
+	margin:0 0 10px 10px;
+	line-height: 1.3;
+}
+.teamP p{
+	line-height: 1.3;
+}
+.teamP span{
+	font-weight: bold;
+}
+.home a,.collectives a,.jobs a,.public a, .teamLast a{
+	color: black;
+	opacity: 0.6;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 13px;
+	margin-left: 3px;
+}
+.firstIcon{
+	margin-top: 5px;
+}
+.menuSub{
+	padding: 10px 0;
+	font-size: 17px;
+	opacity: 0.6;
+}
+.hidden{
+	visibility: hidden;
+}
+.menuHeader{
+	color: black;
+	opacity: 0.6;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 11px;
+}
+.infoIcon{
+	float:right;
+	margin-right: 15px;
+	font-size:15px;
+}
+.fa-certificate{
+	color:#f48225;
+}
+.teams hr{
+	margin:10px 0;
+	opacity: 0.3;
+}
+.freeTeam{
+	background-color:#0a95ff;
+	border: none;
+	border-radius: 7%;
+	padding: 8px 18px;
+	color: white;
+	font-size: 12px;
+}
+.teamLast, .teamLast a,{
+	padding: 15px;
+	text-decoration: none;
+
+}
+.public, .collectives, .jobs, .teams{
+	margin-top: 25px;
+}
+.rightMainContainer{
+	width:82%;
+	float: left;
+	/*border: 1px solid blue;*/
+	padding: 30px;
+}
+.scroll{
+	height: 608px;
+	overflow-y: scroll;
+}
+.userDetails{
+	float:left;
+}
+.leftProfile{
+	float:right;
+}
+.profileDp{
+	float: left;
+	width: 140px;
+	height:140px;
+	border-radius: 8px;
+	background-image: url('../assets/images/profiledp.jpg');
+	background-size: 140px;
+	background-repeat: no-repeat;
+}
+.profileDetails{
+	float: left;
+	padding: 0px 15px;
+}
+.profileName, .profileQual, .profileExp, .profilePlace{
+	padding: 1px 0;
+	font-weight: regular;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Liberation Sans",sans-serif;
+}
+.profileQual{
+	font-size: 25px;
+	opacity: 0.7;
+}
+.profileExp, .profilePlace{
+	font-size: 16px;
+	opacity: 0.7;
+}
+.profileDetails i{
+	margin: 0 3px;
+}
+.profileName{
+	font-size: 40px;
+	letter-spacing: 0.5px;
+	font-weight: regular;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Liberation Sans",sans-serif;
+}
+.profileSelect{
+	padding: 12px 10px;
+	font-familly: arial;
+	letter-spacing: 0.5px;
+	border-radius: 3px;
+	border: 1px solid rgb(0,0,0,0.2);
+	outline:none;
+	color: rgb(0,0,0,0.5);
+	cursor: pointer;
+}
+.profileSelect:focus{
+	box-shadow:  0 0 10px 0 rgb(0,0,0,0.1);
+	outline: none;
+}
+.profileSelect:hover{
+	background-color: rgb(0,0,0,0.05);
+}
+.rightMainSecond{
+	padding: 18px 0px;
+}
+.pro{
+	border: transparent;
+	border-radius: 25px;
+	background-color: rgb(244, 115, 7, 0.8);
+	padding: 10px 15px;
+	float:left;
+	color: white;
+	letter-spacing: 0.5px;
+	cursor: pointer;	
+	margin-right: 5px;
+}
+.pro:hover{
+	background-color: rgb(244, 115, 7, 1);
+}
+.acti{
+	border: transparent;
+	border-radius: 25px;
+	background-color: transparent;
+	padding: 10px 15px;
+	float:left;
+	color: black;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+.acti:hover{
+	background-color: rgb(0,0,0,0.1);
+}
+.leftSection{
+	float: left;
+	width:23%;
+}
+.mainSection{
+	float: left;
+	width: 74%;
+	margin-left: 30px;
+}
+.leftSectionHead span{
+	padding-top: 10px;
+	/* font-size: 22px; */
+}
+.font22{
+	font-size:22px;
+}
+.leftSectionCon{
+	border: 1px solid rgb(0,0,0,0.1);
+	padding: 10px;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+.leftConCol{
+	width:48%;
+	line-height: 18px;
+	float: left;
+	font-size: 18px;
+	margin:10px 1px;
+}
+.leftConRow{
+	padding-bottom: 15px;
+}
+.leftConCol span{
+	font-size: 12px;
+}
+.leftspan{
+	font-size: 14px;
+}
+.stats{
+	margin-bottom: 20px;
+}
+.va span{ 
+	font-size:12px;
+	opacity: 0.7;
+}
+.leftLinkImg{
+	width:20px;
+	height: 20px;
+}
+.StackOverFlow{
+	background-size: 20px;
+	background-position: 1%;
+	background-image: url('../assets/icons/stackIcon.png');
+}
+.superUser{
+	background-size: 20px;
+	background-position: 1%;
+	background-image: url('../assets/icons/su.png');
+	background-repeat: no-repeat;
+}
+.meta{
+	background-size: 20px;
+	background-position: 1%;
+	background-image: url('../assets/icons/metas.png');
+}
+.area51{
+	background-size: 20px;
+	background-position: 1%;
+	background-image: url('../assets/icons/area.png');
+}
+.pfam{
+	background-size: 20px;
+	background-position: 1%;
+	background-image: url('../assets/icons/stack.png');
+}
+.leftLinkname{
+	margin-top: 3px;
+	padding-bottom: 15px;
+	margin-left: 5px;
+	color: rgb(35, 137, 205);
+}
+.leftLinkvisitor{
+	opacity: 0.5;
+	margin-top:2px;
+}
+.firstHeader{
+	margin-bottom: 10px;
+}
+.mainSectionGPro, .mainSectionGPro a, .font16{
+	font-size:16px;
+}
+.mainSectionGPro a{
+	color: rgb(35, 137, 205);
+}
+.list, .list li{
+	margin: 15px 0;
+}
+.bold{
+	font-weight: bold;
+}
+ul.a{
+	 list-style-type: disc;
+	padding-left: 65px;
+}
+.badges{
+	margin-top: 60px;
+}
+.tags{
+	margin-top: 25px;
+}
+.tagcol{
+	padding:10px;
+	border-bottom:1px solid rgb(0,0,0,0.2);
+}
+.tagcircle{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color:rgb(255, 204, 0);
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.tagsbox{
+	border: 1px solid rgb(0,0,0,0.2);
+	border-radius: 5px;
+}
+.tagcolcon{
+	background-color: rgb(184, 216, 239,0.6);
+	padding: 5px;
+	color: rgb(66, 135, 245, 0.8);
+}
+.opacity5{
+	opacity: 0.5;
+}
+.opacity7{
+	opacity:0.7;
+}
+.paddingleft15{
+	padding-left:15px;
+}
+.badgebox1, .badgebox2{
+	width:30%;
+	margin: 3px 10px 5px 0;
+	border: 1px solid rgb(0,0,0,0.2);
+	padding: 15px 8px 15px 8px;
+	border-radius:5px;
+}
+.badgebox3{	
+	width:30%;
+	margin: 3px 0px 5px 0;
+	border: 1px solid rgb(0,0,0,0.2);
+	padding: 15px 10px 15px 10px;
+	border-radius:5px;
+}
+.font40{
+	font-size: 40px;
+}
+.font25{
+	font-size:25px;
+}
+.badgeCon{
+	margin-top: 15px;
+}
+.angular{
+	border: 1px solid rgb(0,0,0,0.2);
+	padding:5px;
+	border-radius:5px;
+	background-color:rgb(0,0,0,0.05);
+}
+.angcon{
+	margin-left:5px;
+	opacity:0.7;
+	font-size:12px;
+}
+.yellowcircle{
+	width:8px;
+	height:8px;
+	border-radius:50%;
+	background-color:rgb(255, 204, 0);
+	margin-top: 4px;
+}
+.badgeName{
+	margin-left: 15px;
+}
+.gold{
+	color: rgb(255, 204, 0);
+}
+.bronze{
+	color:rgb(199, 128, 66);
+}
+.rcol{
+	margin-left: 10px;
+}
+.postSub{
+	margin-top: 0;
+}
+.scoreNewest{
+	border: 1px solid rgb(0,0,0,0.2);
+	border-radius: 5px;
+	margin-left: 5px;
+}
+.mp{
+	margin: 0 7px;
+}
+#font12{
+	font-size: 12px;
+}
+.font12{
+	font-size: 12px;
+}
+.sn{
+	border-left: 1px solid rgb(0,0,0,0.2); 
+	padding: 8px;
+	font-size: 12px;
+}
+.activeScore{
+	background-color: rgb(227, 230, 232);
+}
+.postnum{
+	background-color: rgb(94, 186, 131);
+	padding: 10px;
+	margin-left: 10px;
+	color: white;
+}
+.metaPostLogo{
+	height: 30px;
+	width: 30px;
+	background-size:30px;
+	background-position: 1%;
+	margin: 2px;
+	background-repeat: no-repeat;
+}
+.stackmeta{
+	background-image: url('../assets/icons/stackIcon.png');
+}
+.suser{
+	background-image: url('../assets/icons/su.png');
+	background-size: 20px;
+}
+.pers{
+	background-image: url('../assets/icons/stack.png');
+}
+.metapostnum{
+	border: 1px solid rgb(0,0,0,0.2);
+	color: rgb(0,0,0,0.5);
+	background-color: transparent;
+	padding: 5px 12px;
+	margin: 5px;
+	border-radius:5px;
+}
+.postlink, .postdate{
+	padding: 10px;
+}
+.postlink a{
+	text-decoration: none;
+	color:rgb(10, 149, 255);
+	padding: 10px;
+	font-size: 15px;
+}
+.footer{
+	background-color:black;
+	color: white;
+}
+.footer a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: arial;
+}
+.footLogo{
+	width:5%;
+	float: left;
+}
+.footLogo img{
+	width:60px;
+}
+.stackOverflow{
+	width:17%;
+	float: left;
+}
+.Products{
+	width:13%;
+	float: left;
+}
+.Company{
+	width:15%;
+	float: left;
+}
+.stackExchange{
+	width:20%;
+	float: left;
+}
+.footerLinkHead{
+	margin:20px 10px;
+	opacity:0.8;
+}
+.footerLinks{
+	margin: 12px 10px;
+	opacity: 0.7;
+}
+.footerLinks a{
+	font-weight: normal;
+}
+.social{
+	width:25%;
+	float: left;
+	margin: 20px 30px;
+}
+nav a{
+	font-size: 11px;
+	opacity: 0.7;
+	margin-right: 15px;
+}
+.social span{
+	margin-top: 20px;
+	font-size: 11px;
+}
+.footerLast{
+	margin-top:230px;
+	opacity: 0.7;
+}
