@@ -53,6 +53,9 @@
 .right{
 	float:right;
 }
+header{
+	display:flex;
+}
 .headerLine{
 	height:4px;
 	background-color: rgb(244, 115, 7);
