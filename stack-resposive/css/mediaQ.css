@@ -33,3 +33,11 @@
 }
 
 }
+
+@media only screen and (max-width: 1105px) {
+.postdate{
+  font-size: 10px;
+}
+
+
+}
